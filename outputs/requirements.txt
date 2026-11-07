@@ -1,0 +1,8 @@
+torch==2.14.1
+transformers==5.22.1
+datasets==4.8.5
+bert-score==0.3.13
+scikit-learn==1.6.1
+numpy==2.4.6
+pandas==2.2.3
+matplotlib==3.10.0
