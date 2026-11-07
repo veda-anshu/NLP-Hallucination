@@ -25,8 +25,6 @@ To run outside Colab, install the pinned packages with `pip install -r requireme
 We were assigned TruthfulQA and only use that one.
 
 * **TruthfulQA** (used): `load_dataset("truthfulqa/truthful_qa", "generation", split="validation")`, 817 questions. The notebook downloads it automatically. (`truthful_qa` is the old name of the same dataset.) https://huggingface.co/datasets/truthfulqa/truthful_qa
-* **WikiBio GPT-3 Hallucination** (not used): `load_dataset("potsawee/wiki_bio_gpt3_hallucination")`, split `evaluation`, 238 passages. https://huggingface.co/datasets/potsawee/wiki_bio_gpt3_hallucination
-* **HaluEval QA** (not used): download `data/qa_data.json` from https://github.com/RUCAIBox/HaluEval (JSON Lines, 10,000 examples).
 
 ## Pretrained models (Hugging Face)
 
